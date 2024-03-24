@@ -30,43 +30,45 @@ This project offers a solution to visualize health data for informed decision-ma
 
 1. Clone this repository or download the project files.
 2. Install required dependencies:
+
    ```bash
    cd backend  # Navigate to the backend directory
    pip install -r requirements.txt
    ```
-   **Use code with caution.**
+
 3. Configure your database settings in `backend/settings.py`.
 4. Run database migrations:
+
    ```bash
    python manage.py makemigrations
    python manage.py migrate
    ```
-   **Use code with caution.**
+
 5. Start the development server:
    ```bash
    python manage.py runserver
    ```
-   **Use code with caution.**
 
 This will run the API server at [http://localhost:8000/](http://localhost:8000/) by default.
 
 ### 2. Frontend (Vue.js):
 
 1. Navigate to the frontend directory:
+
    ```bash
    cd frontend
    ```
-   **Use code with caution.**
+
 2. Install dependencies:
+
    ```bash
    npm install
    ```
-   **Use code with caution.**
+
 3. Start the development server:
    ```bash
    npm run serve
    ```
-   **Use code with caution.**
 
 This will open the frontend application in your default browser at [http://localhost:8080/](http://localhost:8080/) by default.
 
